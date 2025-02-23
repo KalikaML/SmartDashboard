@@ -20,16 +20,16 @@
     ii) PO Dump : Pending and Processed data details
 2) Create the Parsing process
     1) Proforma Invoice
-    - Searching a with proforma invoice for smtp mail python utility download attached file
-    - Dump that on scheduling daily to s3
-    - Extract the content using ocr engine and validate
-        try:
-        1) [Python package](https://pypi.org/project/invoice2data/)
-        2) [Medium article](https://medium.com/@cherylinpz/simplifying-invoice-processing-extracting-tables-with-python-part1-95437f404efb)
+        - Searching a with proforma invoice for smtp mail python utility download attached file
+        - Dump that on scheduling daily to s3
+        - Extract the content using ocr engine and validate
+            try:
+            1) [Python package](https://pypi.org/project/invoice2data/)
+            2) [Medium article](https://medium.com/@cherylinpz/simplifying-invoice-processing-extracting-tables-with-python-part1-95437f404efb)
 
    2)  PO dump
-   _ On Daily basis Dump is in mail extract excel store in s3
-   - Implement pg vector
+       _ On Daily basis Dump is in mail extract excel store in s3
+       - Implement pg vector
 
    ## TODO
        1) Create PG vector on local
