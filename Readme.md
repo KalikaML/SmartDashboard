@@ -58,3 +58,20 @@
    1) Explore the techniques for giving data privacy to user
 
 
+## Various Vector Database
+
+Here are some notable open-source frameworks and libraries for building Retrieval Augmented Generation (RAG) systems:
+
+1. SWIRL: An infrastructure software that facilitates secure and fast searches across data sources without the need for data movement. It integrates with over 20 large language models (LLMs) and is designed for secure deployment within private clouds.
+
+2. Cognita: A modular framework that organizes RAG components for easier testing and deployment. It supports various document retrievers and is fully API-driven, making it suitable for scalable RAG systems.
+
+3. LLM-Ware: This framework focuses on enterprise-ready RAG pipelines, allowing the integration of small, specialized models. It supports a modular architecture and can operate without a GPU.
+
+4. RAG Flow: An engine that emphasizes deep document understanding, enabling effective integration of structured and unstructured data for citation-grounded question-answering.
+
+5. Graph RAG: A graph-based system that enhances LLM outputs by incorporating structured knowledge graphs, making it ideal for complex enterprise applications.
+
+6. Haystack: An orchestration framework that connects models, vector databases, and file converters to create advanced RAG systems, supporting customizable pipelines for various tasks.
+
+7. Storm: A knowledge curation system that generates comprehensive reports with citations, integrating advanced retrieval methods to support multi-perspective question-asking.
