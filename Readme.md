@@ -51,18 +51,22 @@
 
    ###### Sample Datasets
    [Kaggle](https://www.kaggle.com/datasets/abutalhadmaniyar/bank-statements-dataset?resource=download)
+
+   ###### Link to Refer
+   [medium](https://medium.com/@ajaytshaju/converting-bank-statements-to-insights-using-google-sheets-for-data-transformation-and-cleanup-58259d102108)
+
    ###### Limitation : Data privacy
+
    Solution: Give a isolated space
 
    ###### Points of discussion
    1) Explore the techniques for giving data privacy to user
 
-
 ## Various Vector Database
 
 Here are some notable open-source frameworks and libraries for building Retrieval Augmented Generation (RAG) systems:
 
-1. SWIRL: An infrastructure software that facilitates secure and fast searches across data sources without the need for data movement. It integrates with over 20 large language models (LLMs) and is designed for secure deployment within private clouds.
+1. [SWIRL](https://github.com/swirlai/swirl-search): An infrastructure software that facilitates secure and fast searches across data sources without the need for data movement. It integrates with over 20 large language models (LLMs) and is designed for secure deployment within private clouds.
 
 2. Cognita: A modular framework that organizes RAG components for easier testing and deployment. It supports various document retrievers and is fully API-driven, making it suitable for scalable RAG systems.
 
