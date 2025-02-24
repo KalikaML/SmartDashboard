@@ -9,7 +9,12 @@
 ## RAG Usecases
 
 ### Gmail RAG
-1. Extract the PO order and proforma invoice data as [starting point](https://medium.com/@masego_m/accessing-gmail-with-python-a-beginners-guide-812e0068a568)
+
+1.Data Extraction:  Extract the PO order and proforma invoice with attached file by searching keyword to S3
+ [starting point](https://medium.com/@masego_m/accessing-gmail-with-python-a-beginners-guide-812e0068a568)
+##### Prompt:
+with gmail Imap server to extract invoice proforma from attached mail to dump in s3 bucket
+write a end to end flow with python
 
 #### Problem Statement : Build RAG on Kalika Enterprises Gmail Data
 
