@@ -12,6 +12,12 @@ Tasks
    2)  PO dump
    _ On Daily basis Dump is in mail extract excel store in s3
    - Implement pg vector
+
+##### Prompt:
+with gmail Imap server to extract invoice proforma from attached mail to dump in s3 bucket
+write a end to end flow with python
+
+
 """
 
 import imaplib
