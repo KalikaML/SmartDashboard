@@ -10,6 +10,7 @@
 
 ### Gmail RAG
 
+![kalikarag](kalika_rag.png)
 1.Data Extraction:  Extract the PO order and proforma invoice with attached file by searching keyword to S3
  [starting point](https://medium.com/@masego_m/accessing-gmail-with-python-a-beginners-guide-812e0068a568)
 ##### Prompt:
