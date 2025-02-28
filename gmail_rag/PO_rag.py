@@ -11,11 +11,16 @@ from langchain_community.llms import Ollama
 from langchain.chains import RetrievalQA
 
 # Email Configuration
-EMAIL_ACCOUNT = "kalikaenterprises@gmail.com"
-EMAIL_PASSWORD = "bake syvp gxfm xhtv"
 IMAP_SERVER = "imap.gmail.com"
 PO_DIRECTORY = "po_dumps"
 FAISS_INDEX_PATH = "po_faiss_index"
+
+from streamlit import secrets
+
+# Load secrets from .secrets.toml
+#secrets_config = secrets.toml_file_config("secrets.toml")
+EMAIL_ACCOUNT = st.secrets["EMAIL_ACCOUNT"]
+EMAIL_PASSWORD = st.secrets["EMAIL_PASSWORD"]
 
 # Utility: Clean filenames
 def clean_filename(filename):
